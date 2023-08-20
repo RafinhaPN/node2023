@@ -1,0 +1,28 @@
+inicializar com  npm install
+
+npm install dotenv --save 
+
+npm install sequelize --save 
+npm install mysql2 --save  
+npm install --save-dev sequelize-cli
+//criação de migration
+// npx sequelize-cli init
+//npx sequelize-cli migration:generate --name create-nome
+//npx sequelize-cli migration:generate --name alter-email
+//npx sequelize-cli db:migrate:undo remove a migration mais recente
+
+//executa a migration
+//npx sequelize-cli db:migrate
+
+//criar seeders
+//npx sequelize-cli seed:generate --name demo-Users
+//npx sequelize-cli seed:generate --name demo-Users
+executar a seeders
+//npx sequelize-cli db:seed:all 
+/executar uma seeder
+//npx sequelize-cli db:seed: --seed nomedaseeder
+/*
+
+ 
+
+*/
